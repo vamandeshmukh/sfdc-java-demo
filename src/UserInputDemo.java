@@ -13,6 +13,8 @@ public class UserInputDemo {
 		int num2 = sc.nextInt();
 
 		System.out.println(num1 + num2);
+		
+		sc.close();
 
 	}
 
