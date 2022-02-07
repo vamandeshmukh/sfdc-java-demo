@@ -29,6 +29,9 @@ public class Hello {
 		bonus = 20000;
 		calculateAndPrintIncome(salary, bonus);
 
+		calculateAndPrintIncome(100, 10);
+//		calculateAndPrintIncome(100); // CE 
+//		calculateAndPrintIncome(100, 10, 12); // CE 
 	}
 
 }
