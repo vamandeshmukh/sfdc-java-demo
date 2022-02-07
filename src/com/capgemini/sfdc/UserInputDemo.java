@@ -1,3 +1,5 @@
+package com.capgemini.sfdc;
+
 import java.util.Scanner;
 
 public class UserInputDemo {
@@ -13,7 +15,7 @@ public class UserInputDemo {
 		int num2 = sc.nextInt();
 
 		System.out.println(num1 + num2);
-		
+
 		sc.close();
 
 	}
