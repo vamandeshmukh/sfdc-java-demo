@@ -35,7 +35,5 @@ public class EncapDemo {
 		System.out.println(customer1.getBalance());
 //		customer1.balance = 1500; // not allowed
 		System.out.println(customer1.getBalance());
-
 	}
-
 }
