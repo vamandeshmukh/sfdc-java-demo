@@ -31,7 +31,6 @@ public class MethodDemo {
 		System.out.println(output);
 		String output2 = returnHelloWithName("Monu"); 
 		System.out.println(output2);
-
 	}
 
 }
