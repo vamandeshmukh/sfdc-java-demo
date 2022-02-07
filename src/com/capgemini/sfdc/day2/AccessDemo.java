@@ -6,7 +6,6 @@ package com.capgemini.sfdc.day2;
 //<default> (package) - accessible from within the package 
 //private - accessible only from within the class
 
-
 class AccessClass {
 	
 	public static int publicField;
@@ -28,7 +27,7 @@ public class AccessDemo {
 		System.out.println(AccessClass.publicField);
 		System.out.println(AccessClass.protectedField);
 		System.out.println(AccessClass.packageField);
-		System.out.println(AccessClass.privateField);
+//		System.out.println(AccessClass.privateField); // CE 
 	}
 
 }
