@@ -2,6 +2,8 @@ package com.capgemini.sfdc.oop;
 
 //inheritance - a subclass (child class) accesses members of superclass (parent class)
 //acquire properties from parents 
+// private members are not accessible 
+// static members are not accessible 
 
 class Parent {
 	int num;
