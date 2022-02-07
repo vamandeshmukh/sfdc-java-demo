@@ -33,18 +33,22 @@ class HdfcBank extends Rbi implements GovtOfIndia, StateGovt {
 		// specify the process - aadhaar, pan, voter
 	}
 
+	@Override
+	public void paySalaries() {
+		// code
+	}
+
+	@Override
+	void payInterest() {
+		// different implementation
+	}
+
 	void giveLoans() {
 		// code
 	}
 
 	void takeDeposits() {
 		// code
-	}
-
-	@Override
-	public void paySalaries() {
-		// TODO Auto-generated method stub
-
 	}
 
 }
