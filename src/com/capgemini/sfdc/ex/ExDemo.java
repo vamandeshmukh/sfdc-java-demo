@@ -17,6 +17,7 @@ public class ExDemo {
 //		
 //		System.out.println(num3); // infinity 
 
+		System.out.println("Start");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Number division App\nEnter num1");
 		int num1 = sc.nextInt();
@@ -25,10 +26,13 @@ public class ExDemo {
 		int num3 = 0;
 
 		try {
-			num3 = num1 / num2;
-		} catch (ArithmeticException ae) {
+			num3 = num1 / num2; // 10, 5, no exception , 10,0 - exception
+		} catch (ArithmeticException objectName) {
+			objectName.printStackTrace();
 			System.out.println("Do not divide by zero.");
 		}
+
 		System.out.println(num3); // infinity
+		System.out.println("End");
 	}
 }
