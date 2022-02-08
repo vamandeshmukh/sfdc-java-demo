@@ -8,13 +8,10 @@ public class ExDemo2 {
 
 		int[] marksArray = { 98, 95, 97, 99, 96 };
 
-		try {
-			System.out.println(marksArray[3]); // 96
 
-		} catch (ArrayIndexOutOfBoundsException a) {
-			System.out.println("Wrong index!");
-		}
+		System.out.println(marksArray[5]); // 96
 
+		
 		System.out.println("End");
 
 	}

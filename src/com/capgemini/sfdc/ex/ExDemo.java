@@ -28,8 +28,11 @@ public class ExDemo {
 		try {
 			num3 = num1 / num2; // 10, 5, no exception , 10,0 - exception
 		} catch (ArithmeticException objectName) {
-			objectName.printStackTrace();
+//			objectName.printStackTrace();
 			System.out.println("Do not divide by zero.");
+		}
+		finally {
+			System.out.println("Done");
 		}
 
 		System.out.println(num3); // infinity
