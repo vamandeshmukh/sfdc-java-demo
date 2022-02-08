@@ -24,7 +24,6 @@ public class ExDemo3 {
 		} finally {
 			sc.close();
 		}
-		//
 	}
 
 }
