@@ -16,5 +16,4 @@ public class ColDemo2 {
 		System.out.println(marksList);
 
 	}
-
 }
