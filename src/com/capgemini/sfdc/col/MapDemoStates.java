@@ -17,6 +17,9 @@ public class MapDemoStates {
 
 		System.out.println(stateCodes.get("KA"));
 		System.out.println(stateCodes.get(null));
+		
+		String str = "5:00";
+		System.out.println(str.split(":"));	
 
 	}
 
