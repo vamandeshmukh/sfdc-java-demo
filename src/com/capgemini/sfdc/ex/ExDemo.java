@@ -30,6 +30,9 @@ public class ExDemo {
 		} catch (ArithmeticException objectName) {
 //			objectName.printStackTrace();
 			System.out.println("Do not divide by zero.");
+		} catch (NumberFormatException objectName) {
+//			objectName.printStackTrace();
+			System.out.println("Wrong!");
 		}
 		finally {
 			System.out.println("Done");

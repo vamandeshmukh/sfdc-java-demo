@@ -13,3 +13,17 @@ public class InvalidVoterException extends RuntimeException {
 	}
 
 }
+
+//public class InvalidVoterException extends RuntimeException {
+//
+//	private static final long serialVersionUID = 1L; // optional
+//
+//	public InvalidVoterException() {
+//		super(); // optional
+//	}
+//
+//	public InvalidVoterException(String message) {
+//		super(message);
+//	}
+//
+//}

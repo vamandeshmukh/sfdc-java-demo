@@ -8,7 +8,10 @@ public class ExDemo3 {
 		if (age >= 18) {
 			System.out.println("You may vote.");
 		} else {
+//			throw new InvalidVoterException();
 			throw new InvalidVoterException("You can not vote.");
+//			InvalidVoterException obj = new InvalidVoterException("You can not vote.");
+//			throw obj;
 		}
 	}
 
