@@ -19,7 +19,7 @@ public class ColDemo {
 		System.out.println(list.size());
 		System.out.println(list);
 
-		list.add(10); // not int , it is Integer 
+		list.add(10); // not int , it is Integer
 		list.add(10.5);
 		list.add("abc");
 
@@ -32,9 +32,19 @@ public class ColDemo {
 		System.out.println(list);
 
 		list.remove(1);
+//		list.
 
 		System.out.println(list.size());
 		System.out.println(list);
+
+		ArrayList marksList = new ArrayList();
+
+		marksList.add(98);
+		marksList.add(96);
+		marksList.add("abcd");
+		marksList.add("blah blah blah");
+
+		System.out.println("My Marks are like these - " + marksList);
 
 	}
 
